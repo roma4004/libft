@@ -94,7 +94,8 @@ SRC = ft_lstappend.c \
 	ft_tolower.c \
 	ft_toupper.c \
 	ft_word_len.c \
-	ft_switch.c
+	ft_switch.c \
+	ft_q_rsqrt.c
 
 OBJ = $(SRC:.c=.o)
 
