@@ -6,7 +6,7 @@
 /*   By: dromanic <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/12 12:41:00 by dromanic          #+#    #+#             */
-/*   Updated: 2018/09/12 12:41:42 by dromanic         ###   ########.fr       */
+/*   Updated: 2019/01/01 19:07:11 by dromanic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,9 @@ double	ft_pow(double num, int exp)
 	double	result;
 
 	result = 1.0;
-	while (exp > 0)
+	while (exp)
 	{
-		if (exp % 2 == 1)
+		if (exp & 1)
 			result *= num;
 		exp >>= 1;
 		num *= num;
