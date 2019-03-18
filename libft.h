@@ -6,7 +6,7 @@
 /*   By: dromanic <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/18 20:14:10 by dromanic          #+#    #+#             */
-/*   Updated: 2018/12/21 13:53:30 by dromanic         ###   ########.fr       */
+/*   Updated: 2019/01/01 18:08:42 by dromanic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -119,5 +119,6 @@ size_t			ft_count_words(const char *str, size_t max_i, char separator);
 int				ft_get_processors_num(void);
 void			ft_free_arr(char **arr);
 int				ft_switch(bool *bits);
+float			ft_q_rsqrt(float number);
 
 #endif
