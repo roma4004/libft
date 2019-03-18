@@ -6,7 +6,7 @@
 /*   By: dromanic <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/18 20:14:10 by dromanic          #+#    #+#             */
-/*   Updated: 2019/01/01 18:08:42 by dromanic         ###   ########.fr       */
+/*   Updated: 2019/03/18 19:46:02 by dromanic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -109,7 +109,7 @@ void			ft_strclrfrom(char *alloc, int i, int len);
 void			ft_skip_white_spases(const char *str, size_t *i);
 int				ft_destroy_lst(t_list *lst);
 char			*ft_lltoa(long long n);
-long long		ft_i_atoi(const char *str, size_t *i, size_t max_i);
+long long		ft_iatoi(const char *str, size_t *i, size_t max_i);
 long long		ft_atol_base(const char *str, int base);
 double			ft_pow(double num, int exp);
 size_t			ft_digits_len(const char *s);
@@ -120,5 +120,7 @@ int				ft_get_processors_num(void);
 void			ft_free_arr(char **arr);
 int				ft_switch(bool *bits);
 float			ft_q_rsqrt(float number);
+int				ft_toggle(int *param);
+void			ft_clear_img_buff(int *buffer, size_t width, size_t height);
 
 #endif
