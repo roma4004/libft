@@ -116,7 +116,7 @@ size_t			ft_digits_len(const char *s);
 size_t			ft_word_len(const char *str, char c);
 size_t			ft_num_width(long long int num);
 size_t			ft_count_words(const char *str, size_t max_i, char separator);
-int				ft_get_processors_num(void);
+unsigned int	ft_get_processors_num(void);
 void			ft_free_arr(char **arr);
 int				ft_switch(bool *bits);
 float			ft_q_rsqrt(float number);
