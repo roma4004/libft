@@ -41,7 +41,7 @@
 unsigned int	ft_get_processors_num(void)
 {
 	int				nm[2];
-	unsigned int	count;
+	int				count;
 	size_t			len;
 
 	len = 4;
