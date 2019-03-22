@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_i_atoi.c                                        :+:      :+:    :+:   */
+/*   ft_iatoi.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dromanic <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-long long	ft_i_atoi(const char *str, size_t *i, size_t max_i)
+long long	ft_iatoi(const char *str, size_t *i, size_t max_i)
 {
 	int					sign;
 	unsigned long long	result;

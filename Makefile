@@ -6,7 +6,7 @@
 #    By: dromanic <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/08/07 12:17:01 by dromanic          #+#    #+#              #
-#    Updated: 2018/12/21 13:52:41 by dromanic         ###   ########.fr        #
+#    Updated: 2019/03/18 19:48:08 by dromanic         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,7 @@ SRC = ft_lstappend.c \
 	ft_free_arr.c \
 	ft_get_processors_num.c \
 	ft_get_word.c \
-	ft_i_atoi.c \
+	ft_iatoi.c \
 	ft_isalnum.c \
 	ft_isalpha.c \
 	ft_isascii.c \
@@ -95,7 +95,9 @@ SRC = ft_lstappend.c \
 	ft_toupper.c \
 	ft_word_len.c \
 	ft_switch.c \
-	ft_q_rsqrt.c
+	ft_q_rsqrt.c \
+	ft_toggle.c \
+	ft_clear_img_buff.c
 
 OBJ = $(SRC:.c=.o)
 
