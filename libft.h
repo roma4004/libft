@@ -6,7 +6,7 @@
 /*   By: dromanic <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/18 20:14:10 by dromanic          #+#    #+#             */
-/*   Updated: 2019/03/18 19:46:02 by dromanic         ###   ########.fr       */
+/*   Updated: 2019/04/17 17:35:13 by dromanic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -122,5 +122,6 @@ int				ft_switch(bool *bits);
 float			ft_q_rsqrt(float number);
 int				ft_toggle(int *param);
 void			ft_clear_img_buff(int *buffer, size_t width, size_t height);
+int				ft_ishex(char ch);
 
 #endif

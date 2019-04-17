@@ -6,7 +6,7 @@
 #    By: dromanic <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/08/07 12:17:01 by dromanic          #+#    #+#              #
-#    Updated: 2019/03/18 19:48:08 by dromanic         ###   ########.fr        #
+#    Updated: 2019/04/17 17:45:00 by dromanic         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -97,7 +97,8 @@ SRC = ft_lstappend.c \
 	ft_switch.c \
 	ft_q_rsqrt.c \
 	ft_toggle.c \
-	ft_clear_img_buff.c
+	ft_clear_img_buff.c \
+	ft_ishex.c
 
 OBJ = $(SRC:.c=.o)
 
