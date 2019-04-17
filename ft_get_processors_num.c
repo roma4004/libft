@@ -6,7 +6,7 @@
 /*   By: dromanic <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/12 12:51:00 by dromanic          #+#    #+#             */
-/*   Updated: 2018/11/03 14:45:47 by dromanic         ###   ########.fr       */
+/*   Updated: 2019/03/22 17:16:44 by dromanic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 /*
 ** on macOS detecting number of processors on machine:
-** <sys/param.h>, <sys/sysctl.h> needed for int func get_processors_num();
+** <sys/param.h>, <sys/sysctl.h> needed for func ft_get_processors_num();
 */
 
 /*
@@ -38,11 +38,11 @@
 **	}
 */
 
-int		ft_get_processors_num(void)
+unsigned int	ft_get_processors_num(void)
 {
-	int		nm[2];
-	int		count;
-	size_t	len;
+	int				nm[2];
+	int				count;
+	size_t			len;
 
 	len = 4;
 	nm[0] = CTL_HW;
